@@ -6,7 +6,7 @@ BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
 class MyBot:
     def __init__(self):
-        self.bot = DesktopBot()
+        self.bot = DesktopBot() #atributo que gerencia as ações do bot
         self.maestro = None
         self.execution = None
 
